@@ -1,0 +1,7 @@
+DECLARE
+Accn BANK.Account_Number%TYPE;
+BEGIN
+Accn :=10001;
+Bank_Transaction.CLOSE_ACCOUNT(Accn);
+END;
+/

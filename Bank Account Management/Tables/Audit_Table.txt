@@ -1,0 +1,2 @@
+CREATE TABLE Audit_Table(Account_Number Integer, Transaction_Date TIMESTAMP, Transaction_Type CHAR);
+DESC Audit_Table;

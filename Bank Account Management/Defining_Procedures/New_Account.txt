@@ -1,0 +1,11 @@
+DECLARE
+Accn BANK.Account_Number%TYPE;
+Bname BANK.Bank_Name%TYPE;
+Amt BANK.Amount%TYPE;
+BEGIN
+Accn := 10001;
+Bname :='HDFC';
+Amt := 5000;
+Bank_Transaction.NEW_ACCOUNT(Accn,Bname,Amt);
+END;
+/

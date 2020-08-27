@@ -1,0 +1,11 @@
+DECLARE
+Accn BANK.Account_Number%TYPE;
+Amt BANK.Amount%TYPE;
+TransType Audit_Table.Transaction_Type%TYPE;
+BEGIN
+Accn := 10000;
+Amt :=1000;
+TransType :='D';
+Bank_Transaction.Account_Transaction(Accn,Amt,TransType);
+END;
+/
